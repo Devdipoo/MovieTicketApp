@@ -11,10 +11,10 @@ MovieTicketApp.prototype.addMovie = function(movie) {
   this.movies[movie.id] = movie;
 };
 
-MovieTicketApp.prototype.assignMovieId = function() {
-  this.currentMovieId += 1;
-  return this.currentMovieId;
-};
+// MovieTicketApp.prototype.assignMovieId = function() {
+//   this.currentMovieId += 1;
+//   return this.currentMovieId;
+// };
 
 MovieTicketApp.prototype.addBooking = function(booking) {
   booking.id = this.assignBookingId();
