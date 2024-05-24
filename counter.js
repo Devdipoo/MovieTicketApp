@@ -6,9 +6,9 @@ function MovieTicketApp() {
   this.currentBookingId = 0;
 }
 
-MovieTicketApp.prototype.addMovie = function(movie) {
-  movie.id = this.assignMovieId();
-  this.movies[movie.id] = movie;
+// MovieTicketApp.prototype.addMovie = function(movie) {
+//   movie.id = this.assignMovieId();
+//   this.movies[movie.id] = movie;
 };
 
 MovieTicketApp.prototype.assignMovieId = function() {
