@@ -1,10 +1,10 @@
 // Constructor for MovieTicketApp
-// function MovieTicketApp() {
-//   this.movies = {};
-//   this.bookings = {};
-//   this.currentMovieId = 0;
-//   this.currentBookingId = 0;
-// }
+function MovieTicketApp() {
+  this.movies = {};
+  this.bookings = {};
+  this.currentMovieId = 0;
+  this.currentBookingId = 0;
+}
 
 MovieTicketApp.prototype.addMovie = function(movie) {
   movie.id = this.assignMovieId();
